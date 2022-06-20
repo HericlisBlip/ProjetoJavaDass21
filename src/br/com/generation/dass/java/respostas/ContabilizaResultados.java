@@ -10,7 +10,7 @@ public class ContabilizaResultados {
 	PerguntasEstresse perguntasEstresse = new PerguntasEstresse();
 	PerguntasDepressao perguntasDepressao = new PerguntasDepressao();	
 	
-	public void somas(){
+	public void somatorio(){
 		
 		int somaAnsiedade = 0;
 		int somaEstresse = 0;

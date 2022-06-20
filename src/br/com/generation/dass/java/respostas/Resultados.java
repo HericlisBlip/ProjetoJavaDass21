@@ -2,7 +2,6 @@ package br.com.generation.dass.java.respostas;
 
 public class Resultados {
 	
-	ContabilizaResultados contabilizaResultas = new ContabilizaResultados();
 
 	public void resultadoAnsiedade(int somaAnsiedade) {
 		System.out.println(" ==================================================================== ");

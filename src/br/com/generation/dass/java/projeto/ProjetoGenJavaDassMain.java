@@ -10,13 +10,10 @@ public class ProjetoGenJavaDassMain {
 		
 	Interface telaInicial = new Interface();
 	telaInicial.saudacao();
+	ContabilizaResultados contabilizaResultado = new ContabilizaResultados();
+	contabilizaResultado.somatorio();
+	telaInicial.indicarClinica();
 	
-	ContabilizaResultados contabilizaResultas = new ContabilizaResultados();
-	contabilizaResultas.somas();
-	
-	Interface telaClinica = new Interface();
-	
-	telaClinica.indicarClinica();
 		}
 	
 }
